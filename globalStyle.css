@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+/* Layout */
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        max-width: 375px;
+    }
+}
+
+.background-gradient {
+    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+}
+
+.circle-gradient {
+    background: radial-gradient(circle, var(--violet-blue), var(--persian-blue));
+}
+
+:root{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+    /* Primary */
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Gradients */
+
+        /* Background */
+    --light-slate-blue: hsl(252, 100%, 67%); 
+    --light-royal-blue: hsl(241, 81%, 54%);
+        /* Circles */
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue:  hsla(241, 72%, 46%, 0);
+
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-gray-blue: hsl(224, 30%, 27%);  
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Typography */
+
+body {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 800;
+}

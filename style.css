@@ -1,0 +1,47 @@
+.body_div{
+    background-color: var(--pale-blue);
+    display: grid;
+    grid-template-rows: 1fr auto;
+    height: 100vh;
+}
+
+.result_div{
+display: flex;
+flex-direction: column;
+color: var(--pale-blue)
+}
+
+#your_points{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 45px;
+    text-align: center;
+    font-size: 44px;
+    /* font-weight: 700; */
+    vertical-align: middle;
+}
+
+#your_points small{
+    display: block;
+    line-height: normal;
+    font-size: 14px;
+    color: var(--light-lavender);
+    opacity: 0.5;
+    
+}
+
+
+
+
+
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
