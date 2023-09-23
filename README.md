@@ -2,7 +2,7 @@
 
 This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-(screenshot\FireShot Capture 006 - Frontend Mentor - Results summary component - 127.0.0.1.png)
+![Screenshot](./screenshot/FireShot%20Capture%20005%20-%20Frontend%20Mentor%20-%20Results%20summary%20component%20-%20127.0.0.1.png)
 
 ## Table of contents
 
