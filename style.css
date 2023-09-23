@@ -1,6 +1,5 @@
 .body_div{
     background-color: var(--pale-blue);
-    /* background-color: grey; */
     display: grid;
     grid-template-rows: 1fr auto;
     height: 95vh;
@@ -17,11 +16,6 @@ padding: 2rem;
 gap: 1.5rem;
 border-radius: 0 0 25px 25px ;
 
-
-/* position: absolute;
-top: 0;
-left: 0;
-z-index: 2; */
 }
 
 #your_result{
@@ -157,6 +151,11 @@ z-index: 2; */
     color: var( --cobalt-blue);
 }
 
+.data_item:hover{
+    background-color: hsla(0, 0%, 80%, 0.2);
+}
+
+
 #btn{
     width: 100%;
     background-color: var(--dark-gray-blue);
@@ -170,7 +169,13 @@ z-index: 2; */
 
 #btn:hover{
     opacity: 0.9;
-    transition: 0.2s ease;
+    
+    /* transition: 0.2s ease; */
+}
+
+#btn:focus{
+    outline: none;
+    box-shadow: 0 0 5px var(--dark-gray-blue);
 }
 
 
@@ -209,8 +214,6 @@ z-index: 2; */
         left: -3%;
         bottom: 0%;
         justify-content: space-evenly;
-       
-        
     }
 
 
@@ -230,6 +233,9 @@ z-index: 2; */
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
-
-
   }
+
+  .attribution a:hover, .attribution a:focus {
+    text-decoration: underline; 
+    color: hsl(228, 84%, 59%); 
+}
