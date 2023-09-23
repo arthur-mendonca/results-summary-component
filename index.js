@@ -7,18 +7,31 @@ data.forEach((item) => {
   const itemDiv = document.createElement("div");
   itemDiv.classList.add("data_item");
 
+  const leftDiv = document.createElement("div");
+  leftDiv.classList.add("left_div");
+
+  const rightDiv = document.createElement("div");
+  rightDiv.classList.add("right_div");
+
   const icon = document.createElement("img");
   icon.src = item.icon;
   icon.alt = `${item.category} icon`;
-  itemDiv.append(icon);
+  leftDiv.append(icon);
 
   const categoryText = document.createElement("p");
   categoryText.innerText = item.category;
-  itemDiv.append(categoryText);
+  leftDiv.append(categoryText);
 
   const score = document.createElement("p");
   score.innerText = item.score;
-  itemDiv.append(score);
+  rightDiv.append(score);
+
+  const hundred = document.createElement("p");
+  hundred.innerText = "/ 100";
+  rightDiv.append(hundred);
+  hundred.classList.add("hundred");
+
+  itemDiv.append(leftDiv, rightDiv);
 
   container.append(itemDiv);
 });

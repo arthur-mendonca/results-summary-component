@@ -23,7 +23,7 @@ body {
 }
 
 .circle-gradient {
-    background: radial-gradient(circle, var(--violet-blue), var(--persian-blue));
+    background: radial-gradient(circle, var(--violet-blue), var(--persian-blue) 90%, transparent 100%);
 }
 
 :root{
